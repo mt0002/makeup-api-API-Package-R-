@@ -1,0 +1,55 @@
+---
+title: "The Advanced Functions From the makeupapifx Package Explained"
+author: "Maggie Tjia"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{The Advanced Functions From the makeupapifx Package Explained}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+The `makeupapifx` package contains three advancced functions: `colorCos`, `searchCos`, and `looks`
+
+
+## `colorCos` Function
+
+The `colorCos` function allows the user to look at what colors a makeup product has to offer. 
+
+The function takes two arguments: product type and brand. Both of these arguments must be *strings*, meaning the inputs must be wrapped in quotation marks. The function will output a dataframe for the specified product type and brand for 10 seconds before prompting the user to enter in the ID of the makeup product they want to look into. Upon entering the ID of the specific makeup product, a separate dataframe with the available colors of that makeup product will result. The user will then be able to see what colors are available for said makeup product.
+
+The below example shows a function that would output an initial dataframe that only showed eyeshadow products from the makeup brand "lotus cosmetics usa". The dataframe will display for 10 seconds before the function prompts the use to enter the numerical ID value of the makeup product the user wants to see the colors available for. The final resulting dataframe will be a list of color names and hex values for the product that the user has chosen
+
+```{r eval = FALSE}
+library(makeupapifx)
+colorCos("eyeshadow", "lotus cosmetics usa")
+```
+
+## `searchCos` Function
+
+The `searchCos` function give the user the ability to choose makep products on the basis of price, product type, and brand. This is essentially a function that combines the previous functions of `brands`, `price`, and `typeCos`. This comprehensive function take three logical arguments: price = TRUE/FALSE, type = TRUE/FALSE, and brand = TRUE/FALSE.
+
+All function arguments are set to TRUE as a default. When set to true, the arguments that are set as so will allow the functino to prompt the user to enter in a desired price, product type, and/or brand. This means that the default function will ask the user to input a desired upper-bound price limit, product type, and brand. If the user only wanted to define the dataframe parameters by price and brand, the user would simple set "type = FALSE" and the function would not prompt the user to enter in a makeup product type. Subsequently, the user would be prompted to only enter price amount and brand that they want to explore. The resulting dataframe would be one that contains products of a brand under the price limit. This goes similarly for all other arguments in this function. 
+
+Below is an example of the default function. All three functions work the same. When run, the user will be prompted to answer the user's desired price limit, product type, and makeup brand. The resulting dataframe will show, in ascending order by price value, the specified makeup product type under the price limit for a specific brand.
+
+```{r eval = FALSE}
+searchCos(price = TRUE, type = TRUE, brand = TRUE)
+searchCos(TRUE, TRUE, TRUE)
+searchCos()
+```
+
+## `looks` Function
+
+The `looks` function is a bit different from the other functions in the package. The function takes in three logical conditions: smokey = TRUE/FALSE, natural = TRUE/FALSE, and glam = TRUE/FALSE. The idea of this function is for the user to be able to pick one type of makeup look, set that corresponding condition to TRUE, and produce an output that generates an eye, lip and face product for the look.    
+
+All conditions are set to FALSE as a default. The user may only specify one condition to be true. The function would fail to run if the user set two or more conditions to true. The function also randomly generates an eye, lip, and face product that are able to work well for the desired look. For instance, if the user wanted a natural look, the user would set natural to TRUE and the resulting dataframe would contain the three makeup products that work for a natural makeup look.
+
+The three lines of code below demonstrates how the code would look for a user who wanted a glam makeup look. These codes all work the same. The resulting dataframe would produce three values of makeup products. 
+
+```{r eval = FALSE}
+library(makeupapifx)
+looks(smokey = FALSE, natural = FALSE, glam = TRUE)
+looks(FALSE, FALSE, TRUE)
+looks(glam = TRUE)
+```

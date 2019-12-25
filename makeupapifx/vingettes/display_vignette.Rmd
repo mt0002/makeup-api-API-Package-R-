@@ -1,0 +1,40 @@
+---
+title: "The Display Functions From the makeupapifx Package Explained"
+author: "Maggie Tjia"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{The Display Functions From the makeupapifx Package Explained}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+The `makeupapifx` package contains three display functions: `check_get()`, `cosmetics()`, and `interCos()`.
+
+## `check_get` Function
+  
+The `check_get` function is a simple preliminary function in this package. Upon running the function, it will provide the user a response that gives you  the API endpoint, the date and time of access, the status, the content type, and the size of the API.  
+
+This is the very first function that the user should run before proceeding to run all other functions. The desired Response Status is "200". Should the user experience a "503" status, this function is recommended to be run again to ensure that the connection is successful. If the "503" status persists, please restart your R session and reload the package into your new session. This "503" error is common but not fatal. 
+
+```{r eval = FALSE}
+library(makeupapifx)
+check_get()
+```
+
+## `cosmetics` Function
+
+The `cosmetics` function is used to display the original dataframe of the API with t he exception of missing values being filtered out. Users would ideally explore this dataset and see what it has to offer before further utilizing other functions of this package, as this API does not contain *every* makeup product.
+
+```{r eval = FA:SE}
+makeupapifx::cosmetics()
+```
+
+
+## `interCos` Function
+
+The `interCos` function gives the user an interactive dataframe. 
+
+```{r eval = FALSE}
+makeupapifx::interaCos()
+```

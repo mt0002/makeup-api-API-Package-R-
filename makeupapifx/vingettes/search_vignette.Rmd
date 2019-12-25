@@ -1,0 +1,75 @@
+---
+title: "The Search Functions From the makeupapifx Package Explained"
+author: "Maggie Tjia"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{The Search Functions From the makeupapifx Package Explained}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+The `makeupapifx` package contains three search functions: `brands`, `lookCos`, `price`, `texture`, `typeCos.`
+
+## `brands` Function
+  
+The `brands` function allows the user to input a makeup brand of their choice and results in a dataframe that contains all makeup products of inputted brand.
+
+Please note that the argument must be a *string*, meaning that the input must be wrapped in quotation marks. 
+
+See below for example code of what it would look like if the user wanted to look up makeup products for the brand "nyx".
+
+```{r eval=FALSE}
+library(makeupapifx)
+brands("nyx")
+```
+
+## `lookCos` Function
+  
+The `lookCos` function allows the user to look for makeup products for a specific brand.
+
+This function takes two arguments: the first one being the desired makeup product while the second argument being the desired makeup brand.
+
+Please note that the arguments must be *strings*, meaning that the inputs must be wrapped in quotation marks. 
+
+Below is an example of how the function can be used. The resulting dataframe would give the user a list of lipsticks by the brand "colourpop".
+
+```{r eval = FALSE}
+lookCos("lipstick", "colourpop")
+```
+
+## `price` Function
+  
+The `price` function gives the user the ability to input a price range that they want to explore for the makeup products in this API. 
+
+The price range values are to be inputted as function arguments, such that the first argument is the lower-bound value of the desired price range whilst the second argument is the upper-bound value of the desired price range.  
+
+The output is a dataframe that is sorted in ascending order by price based on the price range that the user inputs. It will include all makeup products within that price range. Below is an example of the dataframe that is defined by the price range of \$5 to \$10.
+
+```{r eval = FALSE}
+price(5, 10)
+```
+
+## `texture` Function
+
+The `texture` function gives the user autonomy to look up makeup products that match a description or trait of the product.
+
+The user is to enter in a character vector of a trait of makeup products that they desire. Please doubly note that the argument input has to be a *string*. This means that the input needs to be wrapped in quotation marks. 
+
+The resulting dataframe will show a list of makeup products that have the inputted trait in its description. 
+
+```{r eval = FALSE}
+texture("matte")
+```
+
+## `typeCos` Function
+  
+The `type_Cos` function allows the user to input a makeup product type that they want to look at. The resulting dataframe will be one that consists of makeup products of the desired type only. 
+
+Please note that the argument must be a *string*, meaning that the input must be wrapped in quotation marks. 
+
+Below is an example of how the function can be used. The output dataframe would be one that contains all makeup products that are eyeliners. 
+
+```{r eval = FALSE}
+typeCos("eyeliner")
+```

@@ -1,0 +1,9 @@
+YEAR: <2019>
+COPYRIGHT HOLDER: <Maggie Tjia>
+
+This package contains functions for the makeup-api API. The functions within this package allow the user to easily navigate the API and search for makeup products with ease. Please contact the owner of this package is issues arise (contact information can be found through DESCRIPTION).
+
+!!!PLEASE NOTE!!!
+*** The connection status has been observed to be '503' many times when running the functions. Please ensure that your internet connection is stable. If this problem persists, run the check_get() function and observe the Response Status. If '200', your connection is stable and you should be able to re-run the function. However, if an error message appears with another '503' error, restart your R session or R program. ***
+
+Website for this function can be location through the "docs" folder.

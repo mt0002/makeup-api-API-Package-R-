@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1576271031148.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1513024600",
+    "id" : "F7EA924D",
+    "lastKnownWriteTime" : 1576272771,
+    "last_content_update" : 1576272771459,
+    "path" : "~/Documents/GitHub/Tjia_Maggie/Final_Project/makeupapifx/R/colorCos.R",
+    "project_path" : "R/colorCos.R",
+    "properties" : {
+        "cursorPosition" : "19,46",
+        "scrollLine" : "0",
+        "tempName" : "Untitled5"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

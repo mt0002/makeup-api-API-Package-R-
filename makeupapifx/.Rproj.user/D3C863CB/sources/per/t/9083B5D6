@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1576271031922.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2084063425",
+    "id" : "9083B5D6",
+    "lastKnownWriteTime" : 1576272887,
+    "last_content_update" : 1576272887153,
+    "path" : "~/Documents/GitHub/Tjia_Maggie/Final_Project/makeupapifx/R/price.R",
+    "project_path" : "R/price.R",
+    "properties" : {
+        "cursorPosition" : "8,181",
+        "scrollLine" : "0",
+        "tempName" : "Untitled2"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

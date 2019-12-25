@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1576271030886.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2441831165",
+    "id" : "C722D31F",
+    "lastKnownWriteTime" : 1576272772,
+    "last_content_update" : 1576272772424,
+    "path" : "~/Documents/GitHub/Tjia_Maggie/Final_Project/makeupapifx/R/brands.R",
+    "project_path" : "R/brands.R",
+    "properties" : {
+        "cursorPosition" : "19,27",
+        "scrollLine" : "0",
+        "tempName" : "Untitled2"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

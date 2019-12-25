@@ -1,0 +1,15 @@
+"1","     name               total            male_share    
+ Length:919         Min.   :   100.2   Min.   :0.3336  
+ Class :character   1st Qu.:   224.7   1st Qu.:0.4186  
+ Mode  :character   Median :   489.6   Median :0.5142  
+                    Mean   :  3142.0   Mean   :0.5072  
+                    3rd Qu.:  1316.1   3rd Qu.:0.5919  
+                    Max.   :176544.3   Max.   :0.6663  
+  female_share         gap           
+ Min.   :0.3337   Min.   :0.0000717  
+ 1st Qu.:0.4081   1st Qu.:0.0895653  
+ Median :0.4858   Median :0.1756914  
+ Mean   :0.4928   Mean   :0.1738627  
+ 3rd Qu.:0.5814   3rd Qu.:0.2595527  
+ Max.   :0.6664   Max.   :0.3328785  
+"

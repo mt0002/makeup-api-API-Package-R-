@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1576270776633.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1438833061",
+    "id" : "49D37D2B",
+    "lastKnownWriteTime" : 1576272605,
+    "last_content_update" : 1576272605953,
+    "path" : "~/Documents/GitHub/Tjia_Maggie/Final_Project/makeupapifx/R/texture.R",
+    "project_path" : "R/texture.R",
+    "properties" : {
+        "cursorPosition" : "26,33",
+        "scrollLine" : "0",
+        "tempName" : "Untitled3"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

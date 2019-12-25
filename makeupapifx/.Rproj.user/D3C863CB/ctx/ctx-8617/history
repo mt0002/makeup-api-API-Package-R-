@@ -1,0 +1,512 @@
+GET(endpoint)
+endpoint <- "http://makeup-api.herokuapp.com/api/v1/products.json"
+GET(endpoint)
+?
+?check_get()
+document()
+??roxygen2
+install.packages("roxygen2")
+?roxygen2
+??roxygen2
+document()
+library(rooxygen2)
+library(roxygen2)
+document()
+source('~/Documents/GitHub/Tjia_Maggie/final project/makeupapifx/R/status.R')
+??status
+document(status)
+document()
+devtools::document()
+devtools::document()
+devtools::document()
+devtools::document()
+devtools::document()
+install.packages("makeupapifx")
+install.packages("makeupapifx")
+library(makeupapifx)
+check_get()
+?status
+status
+??check_get
+document(status)
+document("status")
+library(devtools)
+document(status)
+document("status")
+??magster
+??boba
+document(check_get)
+document("check_get")
+??status
+library(devtools)
+document(status)
+document(makeupapifx)
+document("makeupapifx")
+library(roxygen2)
+document("makeupapifx")
+document(status)
+devtools::dcument(status)
+devtools::document(status)
+devtools::document("status")
+devtools::document(status)
+??status
+??check_get
+?status
+??status
+??makeupapifx
+??cjecl_get
+help(status)
+help("status")
+??status
+??status
+??check_get
+??status
+??status
+library(devtools)
+library(roxygen2)
+library(status)
+check_get <- function() {
+endpoint <- "http://makeup-api.herokuapp.com/api/v1/products.json"
+GET(endpoint)
+}
+??check_get
+View(check_get)
+View(check_get)
+View(check_get)
+library(check_get)
+library(roxygen2)
+library(devtools)
+??texture
+check_get <- function() {
+endpoint <- "http://makeup-api.herokuapp.com/api/v1/products.json"
+GET(endpoint)
+}
+interaCos <- function() {
+endpoint <- "http://makeup-api.herokuapp.com/api/v1/products.json"
+df <- jsonlite::fromJSON(endpoint)
+colnames(df) <- c("ID", "Brand", "Product Name", "Price", "Price Sign", "Currency", "Image Link", "Product Link", "Website Link", "Description", "Rating", "Category", "Product Type", "Tag List", "Created At", "Updated   At", "Product API URL", "API Featured Image", "Product Colors")
+df <- df[!is.na(df$Price), ]
+datatable(df)
+}
+?interaCos
+??interaCos
+View(interaCos)
+View(interaCos)
+install(interaCos)
+install("interaCos")
+install(check_get())
+price <- function(x, y) {
+endpoint <- "http://makeup-api.herokuapp.com/api/v1/products.json"
+df <- jsonlite::fromJSON(endpoint)
+colnames(df) <- c("ID", "Brand", "Product Name", "Price", "Price Sign", "Currency", "Image Link", "Product Link", "Website Link", "Description", "Rating", "Category", "Product Type", "Tag List", "Created At", "Updated   At", "Product API URL", "API Featured Image", "Product Colors")
+df <- df[!is.na(df$Price), ]
+df$Price <- as.numeric(df$Price)
+price_df <- df %>%
+filter(Price >= x) %>%
+filter(Price <= y)
+price_df[order(price_df$Price), ]
+}
+install(price)
+install(price())
+install("price")
+install(price())
+install()
+??price
+install("price")
+install(price)
+install(price())
+??interaCos
+View(price)
+View(price)
+install()
+install("price")
+install("price()")
+install(price <- function(x, y) {
+endpoint <- "http://makeup-api.herokuapp.com/api/v1/products.json"
+df <- jsonlite::fromJSON(endpoint)
+colnames(df) <- c("ID", "Brand", "Product Name", "Price", "Price Sign", "Currency", "Image Link", "Product Link", "Website Link", "Description", "Rating", "Category", "Product Type", "Tag List", "Created At", "Updated   At", "Product API URL", "API Featured Image", "Product Colors")
+df <- df[!is.na(df$Price), ]
+df$Price <- as.numeric(df$Price)
+price_df <- df %>%
+filter(Price >= x) %>%
+filter(Price <= y)
+price_df[order(price_df$Price), ]
+}
+)
+library(makeupapifx)
+??check_get
+library(makeupapifx)
+library(makeupapifx)
+library(makeupapifx)
+??check_get
+library(makeupapifx)
+??check_get
+library(devtools)
+library(roxygen2)
+devtools::load_all(".")
+??check_get
+??interaCos
+library(makeupapifx)
+??makeupapifx
+?makeupapifx
+document(check_get)
+document("check_get")
+library(makeupapifx)
+library(makeupapifx)
+??searchCos
+devtools::load_all(".")
+??searchCos
+library(makeupapifx)
+library(devtools)
+library(roxygen2)
+??price
+help(price)
+library(makeupapifx)
+library(roxygen2)
+library(devtools)
+help(check_get)
+help(brands)
+searchCos(TRUE, FALSE, TRUE)
+devtools::load_all(".")
+library(makeupapifx)
+library(devtools)
+library(roxygen2)
+devtools::load_all(".")
+check_get()
+library(makeupapifx)
+library(devtools)
+library(roxygen2)
+check_get()
+library(makeupapifx)
+library(devtools)
+library(roxygen2)
+devtools::load_all(".")
+price(5, 12)
+df
+df
+check("makeupapifx")
+check(makeupapifx)
+check("brand")
+help(brand)
+help(texture)
+helpbrands
+help(brands)
+check(brands)
+check("brands")
+check(brands())
+check(brands())
+check(brands())
+brands("nyx")
+price <- function(x, y) {
+cosmetics()
+df$Price <- as.numeric(df$Price)
+price_df <- df %>%
+filter(Price >= x) %>%
+filter(Price <= y)
+price_df[order(price_df$Price), ]
+}
+price(5, 60)
+check_get()
+texture <- function(description) {
+cosmetics()
+df <- df[!is.na(df$Price), ]
+df[str_detect(df$Description, description), ]
+}
+tecture("matte")
+texture("matte")
+cosmetics()
+makeupapifx::cosmetics()
+makeupapifx::interCos()
+makeupapifx::interaCos()
+makeupapifx::interaCos()
+interaCos <- function() {
+endpoint <- "http://makeup-api.herokuapp.com/api/v1/products.json"
+df <- jsonlite::fromJSON(endpoint)
+colnames(df) <- c("ID", "Brand", "Product Name", "Price", "Price Sign", "Currency", "Image Link", "Product Link", "Website Link", "Description", "Rating", "Category", "Product Type", "Tag List", "Created At", "Updated   At", "Product API URL", "API Featured Image", "Product Colors")
+df <- df[!is.na(df$Price), ]
+datatable(df)
+}
+interaCos()
+library(makeupapifx)
+library(roxygen2)
+library(devtools)
+makeupapifx::interaCos()
+devtools::build_vignettes()
+devtools::build_vignettes()
+devtools::build_vignettes("display")
+devtools::build_vignettes()
+devtools::build_vignettes("display")
+devtools::build_vignettes(display)
+devtools::build_vignettes()
+build_vignettes()
+library(makeupapifx)
+price(5, 10)
+price(5, 12)
+price <- function(x, y) {
+endpoint <- "http://makeup-api.herokuapp.com/api/v1/products.json"
+df <- jsonlite::fromJSON(endpoint)
+colnames(df) <- c("ID", "Brand", "Product Name", "Price", "Price Sign", "Currency", "Image Link", "Product Link", "Website Link", "Description", "Rating", "Category", "Product Type", "Tag List", "Created At", "Updated   At", "Product API URL", "API Featured Image", "Product Colors")
+df <- df[!is.na(df$Price), ]
+df$Price <- as.numeric(df$Price)
+price_df <- df %>%
+filter(Price >= x) %>%
+filter(Price <= y)
+price_df[order(price_df$Price), ]
+}
+df
+endpoint <- "http://makeup-api.herokuapp.com/api/v1/products.json"
+df <- jsonlite::fromJSON(endpoint)
+library(makeupapifx)
+price(5, 10)
+price(5, 10)
+help(price)
+brands("nyx")
+rcmdcheck::check_details()
+check("makeupapifx")
+devtools::check()
+devtools::check()
+library(makeupapifx)
+brands("nyx")
+searchCos()
+searchCos()
+df
+endpoint <- "http://makeup-api.herokuapp.com/api/v1/products.json"
+df <- jsonlite::fromJSON(endpoint)
+df
+library(makeupapifx)
+looks(smokey = FALSE, natural = FALSE, glam = TRUE)
+help(brands)
+library(makeupapifx)
+brands <- function(x) {
+endpooint <- "http://makeup-api.herokuapp.com/api/v1/products.json"
+df <- jsonlite::fromJSON(endpoint)
+colnames(df) <- c("ID", "Brand", "Product Name", "Price", "Price Sign", "Currency", "Image Link", "Product Link", "Website Link", "Description", "Rating", "Category", "Product Type", "Tag List", "Created At", "Updated   At", "Product API URL", "API Featured Image", "Product Colors")
+df <- df[!is.na(df$Price), ]
+price_df <- df %>%
+filter(Brand == x)
+price_df[order(price_df$Price),]
+}
+library(makeupapifx)
+library(makeupapifx)
+help(brand)
+help(brands)
+help(brands)
+help(cosmetics)
+help(brands)
+devtools::load_all(".")
+help(brands)
+library(makeupapifx)
+library(makeupapifx)
+library(makeupapifx)
+price(10, 20)
+library(makeupapifx)
+price(10, 20)
+library(makeupapifx)
+brands(nyx)
+brands <- function(x = character) {
+endpoint <- "http://makeup-api.herokuapp.com/api/v1/products.json"
+df <- jsonlite::fromJSON(endpoint)
+colnames(df) <- c("ID", "Brand", "Product Name", "Price", "Price Sign", "Currency", "Image Link", "Product Link", "Website Link", "Description", "Rating", "Category", "Product Type", "Tag List", "Created At", "Updated   At", "Product API URL", "API Featured Image", "Product Colors")
+df <- df[!is.na(df$Price), ]
+price_df <- df %>%
+filter(Brand == x)
+price_df[order(price_df$Price), ]
+}
+brand(nyx)
+brands(nyx)
+library(makeupapifx)
+library(makeupapifx)
+brands(nyx)
+brands(nyx)
+library(makeupapifx)
+brands("nyx")
+library(makeupapifx)
+devtools::load_all(".")
+brands <- function(x) {
+endpoint <- "http://makeup-api.herokuapp.com/api/v1/products.json"
+df <- jsonlite::fromJSON(endpoint)
+colnames(df) <- c("ID", "Brand", "Product Name", "Price", "Price Sign", "Currency", "Image Link", "Product Link", "Website Link", "Description", "Rating", "Category", "Product Type", "Tag List", "Created At", "Updated   At", "Product API URL", "API Featured Image", "Product Colors")
+df <- df[!is.na(df$Price), ]
+price_df <- df %>%
+dplyr::filter(Brand == x)
+price_df[order(price_df$Price), ]
+}
+brand("nyx")
+brands("nyx")
+knitr::opts_chunk$set(echo = TRUE)
+df
+endpoint <- "http://makeup-api.herokuapp.com/api/v1/products.json"
+df <- jsonlite::fromJSON(endpoint)
+colnames(df) <- c("ID", "Brand", "Product Name", "Price", "Price Sign", "Currency", "Image Link", "Product Link", "Website Link", "Description", "Rating", "Category", "Product Type", "Tag List", "Created At", "Updated   At", "Product API URL", "API Featured Image", "Product Colors")
+df <- df[!is.na(df$Price), ]
+df <- df[!is.na(df$Price), ]
+df %>%
+dplyr::filter(Brand == "nyx") %>%
+order(Price)
+df
+df %>%
+dplyr::filter(Brand == "nyx")
+df %>%
+dplyr::filter(Brand == "nyx") %>%
+order(Price)
+df %>%
+dplyr::filter(Brand == "nyx") %>%
+order(df, Price)
+df %>%
+dplyr::filter(Brand == "nyx") %>%
+sort(Price)
+df %>%
+dplyr::filter(Brand == "nyx")
+arrange(Price)
+df %>%
+dplyr::filter(Brand == "nyx")
+arrange(df$Price)
+df$Price <- as.numeric(df$Price)
+df <- df[!is.na(df$Price), ]
+df %>%
+dplyr::filter(Brand == "nyx")
+arrange(df$Price)
+df %>%
+dplyr::filter(Brand == "nyx")
+sort(df$Price)
+df %>%
+dplyr::filter(Brand == "nyx") %>%
+sort(df$Price)
+df %>%
+dplyr::filter(Brand == "nyx") %>%
+df[order(df$Price), ]
+df %>%
+dplyr::filter(Brand == "nyx") %>%
+df[order(df$Price), ]
+df %>%
+dplyr::filter(Brand == "nyx") %>%
+df[order(Price), ]
+df %>%
+dplyr::filter(Brand == "nyx") %>%
+[order(Price), ]
+df[order(df$Price), ]
+df <- df[!is.na(df$Price), ]
+df %>%
+dplyr::filter(Brand == "nyx")
+df[order(df$Price), ]
+(df %>%dplyr::filter(Brand == "nyx"))[order(df$Price), ]
+df[order(df$Price), ]
+df %>%
+dplyr::filter(Brand == "nyx")
+df %>%
+dplyr::filter(Brand == "nyx") %>%
+arrange(Price)
+devtools::load_all(".")
+library(makeupapifx)
+devtools::load_all(".")
+library(makeupapifx)
+knitr::opts_chunk$set(echo = TRUE)
+brands("nyx")
+check()
+library(devtools)
+check()
+devtools::load_all(".")
+check()
+check()
+check()
+library(makeupapifx)
+brands("colourpop")
+df
+df
+check()
+brands <- function(x) {
+endpoint <- "http://makeup-api.herokuapp.com/api/v1/products.json"
+df <- jsonlite::fromJSON(endpoint)
+colnames(df) <- c("ID", "Brand", "Product Name", "Price", "Price Sign", "Currency", "Image Link", "Product Link", "Website Link", "Description", "Rating", "Category", "Product Type", "Tag List", "Created At", "Updated   At", "Product API URL", "API Featured Image", "Product Colors")
+df <- df[!is.na(df$Price), ]
+price_df <<- df %>%
+filter(Brand == x)
+price_df[order(price_df$Price), ]
+}
+brands("fenty")
+library(makeupapifx)
+brands("fenty")
+check(check_get())
+check(check_get)
+brands <- function(x = TRUE) {
+endpoint <- "http://makeup-api.herokuapp.com/api/v1/products.json"
+df <- jsonlite::fromJSON(endpoint)
+colnames(df) <- c("ID", "Brand", "Product Name", "Price", "Price Sign", "Currency", "Image Link", "Product Link", "Website Link", "Description", "Rating", "Category", "Product Type", "Tag List", "Created At", "Updated   At", "Product API URL", "API Featured Image", "Product Colors")
+df <- df[!is.na(df$Price), ]
+price_df <<- df %>%
+filter(Brand == x)
+price_df[order(price_df$Price), ]
+}
+brands("byx")
+brands("nyx")
+check()
+library(makeupapifx)
+brands("fenty")
+knitr::opts_chunk$set(echo = TRUE)
+library(makeupapifx)
+brands("colourpop")
+library(makeupapifx)
+devtools::load_all(".")
+library(makeupapifx)
+knitr::opts_chunk$set(echo = TRUE)
+library(makeupapifx)
+texture("glossy")
+library(makeupapifx)
+price()
+library(makeupapifx)
+price()
+library(makeupapifx)
+price()
+library(makeupapifx)
+searchCos()
+library(makeupapifx)
+price()
+price <- function(x = '0', y = '100') {
+endpoint <- "http://makeup-api.herokuapp.com/api/v1/products.json"
+df <- jsonlite::fromJSON(endpoint)
+colnames(df) <- c("ID", "Brand", "Product Name", "Price", "Price Sign", "Currency", "Image Link", "Product Link", "Website Link", "Description", "Rating", "Category", "Product Type", "Tag List", "Created At", "Updated   At", "Product API URL", "API Featured Image", "Product Colors")
+df <- df[!is.na(df$Price), ]
+df$Price <- as.numeric(df$Price)
+price_df <- df %>%
+filter(Price >= x) %>%
+filter(Price <= y)
+price_df[order(price_df$Price), ]
+}
+price <- function(x = '0', y = '100') {
+endpoint <- "http://makeup-api.herokuapp.com/api/v1/products.json"
+df <- jsonlite::fromJSON(endpoint)
+colnames(df) <- c("ID", "Brand", "Product Name", "Price", "Price Sign", "Currency", "Image Link", "Product Link", "Website Link", "Description", "Rating", "Category", "Product Type", "Tag List", "Created At", "Updated   At", "Product API URL", "API Featured Image", "Product Colors")
+df <- df[!is.na(df$Price), ]
+df$Price <- as.numeric(df$Price)
+price_df <- df %>%
+filter(Price >= x) %>%
+filter(Price <= y)
+price_df[order(price_df$Price), ]
+}
+price()
+devtools::load_all(".")
+devtools::load_all(".")
+library(makeupapifx)
+knitr::opts_chunk$set(echo = TRUE)
+library(makeupapifx)
+price()
+library(makeupapifx)
+texture()
+library(makeupapifx)
+texture()
+typeCos()
+library(makeupapifx)
+texture()
+typeCos()
+texture()
+texture()
+texture()
+library(makeupapifx)
+devtools::load_all(".")
+knitr::opts_chunk$set(echo = TRUE)
+library(makeupapifx)
+price()
+texture()
+price()
+lookCos()
+price()
